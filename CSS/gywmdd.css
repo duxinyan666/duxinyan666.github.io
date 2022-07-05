@@ -1,0 +1,208 @@
+
+        .gyfu{
+            width: 100%;
+            height: 3100px;
+            background-color: rgb(221, 218, 218);
+        }
+        .gy{
+            width: 1000px;
+            height: 100%;
+            position: relative;
+            margin: 0px auto;
+            background-color: white;
+        }
+        .guabi{
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            top: 50%;
+            right: 0px;
+            background: url(../image/vxtb.png);
+            background-repeat: no-repeat;
+            transition: all .2s;
+        }
+        .guabi:hover{
+            transform: scale(2) , translateY(10px);
+            border-radius: 0px;
+            background: url(../image/xdd2.jpg);
+        }
+        .maodian{
+            list-style-type: none;
+            width: 400px;
+            height: 20px;
+            position: absolute;
+            left: 50px;
+        }
+        .maodian li{
+            width:80px;
+            height: 20px;
+            float: left;
+            margin-left: 10px;
+        }
+
+       .maodian li a{
+        text-decoration: none;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 16px;
+       }
+       .maodian li a:hover{
+        color: red;
+        text-decoration: underline;
+       }
+       .jgjs-1{
+        margin: 0 auto;
+        padding-top: 50px;
+       }
+       .jgjs-1 h1{
+        display: block;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+        margin: 0px auto;
+        margin-bottom: 10px;
+       }
+       .dantu{
+        width: 300px;
+        height: 200px;
+        float: left;
+       }
+       .shuangtu{
+        width: 300px;
+        height: 200px;
+        float: right;
+       }
+       .ppdd{
+        color: black;
+        font-size: 20px;
+        font-weight: 400;
+       }
+       .hzjg-1{
+        margin: 0 auto;
+        padding-top: 50px;
+       }
+       .hzjg-1 h1{
+        display: block;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+        margin: 0px auto;
+        margin-bottom: 10px;
+       }
+       .jgys-1{
+        margin: 0 auto;
+        padding-top: 50px;
+       }
+       .jgys-1 h1{
+        display: block;
+        width: 800px;
+        height: 30px;
+        text-align: center;
+        margin: 0px auto;
+        margin-bottom: 10px;
+       }
+       .lxwm-1{
+        margin: 0 auto;
+        padding-top: 50px;
+       }
+       .lxwm-1 h1{
+        display: block;
+        width: 300px;
+        height: 30px;
+        text-align: center;
+        margin: 0px auto;
+        margin-bottom: 10px;
+       }
+       .footers{
+            width: 100%;
+            height: 400px;
+            position: relative;
+            background-color: #3a3a3a;
+        }
+        .vx,.qq{
+            width: 200px;
+            height: 250px;
+            position: absolute;
+            float: left;
+            margin-top: 30px;
+            margin-left: 25px;
+        }
+        .qq{
+            top: 0px;
+            left: 250px;
+        }
+        .vxewm{
+            width: 200px;
+            height: 200px;
+            background: url(../image/wxewm.jpg);
+            background-repeat: no-repeat;
+            transition: all .2s;
+        }
+        .qqewm{
+            width: 200px;
+            height: 200px;
+            background: url(../image/qq.jpg);
+            background-repeat: no-repeat;
+            overflow: hidden;
+            transition: all .2s;
+        }
+        .footerzi{
+            display: block;
+            width: 200px;
+            height: 50px;
+            font-size: 40px;
+            color: white;
+            text-align: center;
+            line-height: 50px;
+        }
+        .vxewm:hover{
+            transform: scale(1.1);
+        }
+        .qqewm:hover{
+            transform: scale(1.1);
+        }
+        .lxfs{
+            width: 600px;
+            height: 200px;
+            position: absolute;
+            right: 10px;
+            top: 50px;
+            text-align: center;
+            color: rgb(218, 58, 59);
+            font-size:40px;
+            font-weight: bold;
+            font-family: 楷体;
+            background: url(../image/lxfs.png);
+            background-repeat: no-repeat;
+            background-position: 70px -5px;
+            border-left: 2px dashed rgba(225, 225, 225, 0.2);
+        }
+        .sjsz{
+            width: 600px;
+            height: 30px;
+            color:rgba(225, 225, 225, 0.2);
+            font-size: 18px;
+            text-align: center;
+            line-height: 30px;
+            position: absolute;
+            top: 100px;
+            right: 10px;
+        }
+        .th{
+            width: 150px;
+            height: 40px;
+            border-radius: 10px;
+            background-color: rgb(254, 68, 73);
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 40px;
+            margin-top: 10px;
+            margin-left: 220px;
+        }
+        .th:hover{
+            color: rgb(221, 221, 221);
+            cursor: pointer;
+        }
